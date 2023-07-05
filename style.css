@@ -1,0 +1,100 @@
+@import url('https://fonts.google.com/share?selection.family=Montserrat:wght@100;700%7CPoppins:wght@300;400;500;600;700%7CRighteous');
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1a8c04a6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #55017f, #000000);
+}
+
+.imagem-cat {
+  text-align: center;
+  max-width: 500px;
+  margin-right: 20vh;
+}
+
+.login-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #3b0058af;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rbga(0, 0, 0, 0.5);
+
+  }
+  
+
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #0aa665;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  h3 {
+    text-align: justify;
+    margin-top: 0;
+    color: #0aa665;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0aa665;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #3b0058af;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .imagem-cat {
+      margin-bottom: 20px;
+    }
+    
+    .login-container {
+      border-radius: 0;
+    }
+  }
